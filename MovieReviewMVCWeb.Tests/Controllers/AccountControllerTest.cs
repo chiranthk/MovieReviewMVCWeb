@@ -20,7 +20,7 @@ namespace MovieReviewMVCWeb.Tests.Controllers
         [TestMethod]
         public void GetPerson()
         {
-
+            // Create object 
             AccountController con = new AccountController();
             Person p = con.GetPerson(1);
         }
