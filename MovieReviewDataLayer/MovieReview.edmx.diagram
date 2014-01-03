@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="62a5dd6adff747fabcbb4db5b8c8bc65" Name="Diagram1" ZoomLevel="88">
+        <EntityTypeShape EntityType="MovieReviewModel.Language" Width="1.5" PointX="2.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieReviewModel.MovieReview" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieReviewModel.MovieReview_StatusType" Width="2.75" PointX="2.375" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieReviewModel.Role" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieReviewModel.sysdiagram" Width="1.5" PointX="0.5" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="MovieReviewModel.FK_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="MovieReviewModel.FK_MovieReviewStatusType" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MovieReviewModel.MovieReviewScore" Width="2.5" PointX="3" PointY="27.875" />
+        <AssociationConnector Association="MovieReviewModel.FK_MovieReviewScore_MovieReview" />
+        <EntityTypeShape EntityType="MovieReviewModel.Person" Width="1.5" PointX="2.7556327724622713" PointY="28.447378976478884" />
+        <AssociationConnector Association="MovieReviewModel.FK_MovieReview_Person" />
+        <AssociationConnector Association="MovieReviewModel.FK_MovieReviewScore_Person" />
+        <AssociationConnector Association="MovieReviewModel.FK_RoleID" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
